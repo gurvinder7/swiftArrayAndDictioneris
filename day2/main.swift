@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, World!")
 
-
+var a:Int = 0
 /*if(true==false)
 {
     print("hi")
