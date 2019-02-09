@@ -8,7 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+/*print("Hello, World!")
 
 var s: String = "hii"
 print(s)
@@ -60,9 +60,68 @@ if(y.contains(51))
     
     print("false")
 }
-
+*/
 
 /*if(true==false)
 {
     print("hi")
 }*/
+
+
+
+
+var a = [10,20,30,40,50]
+print(a.count)
+for x in a {
+    print(x)
+}
+
+print(a[0],a[1],a[2])
+
+//a[5]=100   ///error
+//print(a[5])
+// var b:[Int]
+
+var b = [Int]()
+
+b.append( 100)
+b.append(200)
+b.append(300)
+//b[0] = 100
+
+print(b[0],b[1],b[2])
+
+b += [111, 222 ,333]
+print(b)
+let c = a+b
+
+for i in c {
+    print(i)
+}
+
+print("slice value of c1...3")
+
+var x = c[1...3]
+print(x)
+//x[0] = 2010// index out of bound
+x[1] = 2010
+
+//for i in c[1...3]
+for i in x
+{
+    print(i)
+}
+print("slice value of c1")
+print(c[1])
+
+print("value of y")
+var y  = c[2...4]
+print(y)
+
+// another declaration of array
+
+print("array")
+var z = Array<Int>()
+z.append(5000)
+
+print(z[0])
