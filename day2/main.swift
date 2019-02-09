@@ -29,6 +29,39 @@ print(p.hasSuffix("me"))
 print(str.lowercased())
 print(str.last)
 
+// Display Character
+/*for c in str
+{
+    print(c)
+}*/
+
+//var x = 1...
+//PartialRangeFrom
+//PartialRangeUpTo
+// close range
+var x = 5...10
+//for i in x
+    for i in x
+{
+    print(i)
+}
+
+print(x)
+//partial range from
+var y = ...50
+if (y.contains(-1000)) {
+    print("true")
+}
+if(y.contains(51))
+{
+    print("true")
+    
+}else{
+    
+    print("false")
+}
+
+
 /*if(true==false)
 {
     print("hi")
