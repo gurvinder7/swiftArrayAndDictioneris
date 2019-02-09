@@ -70,7 +70,7 @@ if(y.contains(51))
 
 
 
-var a = [10,20,30,40,50]
+/*var a = [10,20,30,40,50]
 print(a.count)
 for x in a {
     print(x)
@@ -124,4 +124,107 @@ print("array")
 var z = Array<Int>()
 z.append(5000)
 
-print(z[0])
+print(z[0]) */
+
+//var input=[1,2,3,4,5]
+//var output = [input.count]
+//var output = Array(repeating: 0, count: input.count)
+//for i in 0..<input.count{
+  /*
+    var t = 1
+    for j in 0..<input.count
+    {
+        if(j ! = i)
+        {
+            t * =input[j]
+        }
+    }
+    y[i]=t
+}
+*/
+
+/*
+func printFirstNumbers(_ N: Int) {
+    if N > 1 {
+        printFirstNumbers(N - 1)
+    }
+    print(N)
+}
+printFirstNumbers(3)
+*/
+
+
+/*print("..............set data struture")
+
+
+
+    var s1 = Set<String>()
+    s1.insert("Canada")
+s1.insert("india")
+print(s1)
+
+//will not insert
+s1.insert("india")
+print(s1
+*/
+
+print("dictionar.........")
+
+//var  d = ["c1":"hello"]
+var d = [1 : "abc",
+    2: "hello"]
+print(d)
+
+d[3]="hello world"
+print(d)
+
+//  print(d[4]) // nil
+
+var country = Dictionary<String,String>()
+country.updateValue("India", forKey: "ind")
+country.updateValue("China", forKey: "ca")
+country.updateValue("Canada", forKey: "can")
+country.updateValue("pakistan", forKey: "pak")
+country.updateValue("finland", forKey: "fd")
+
+
+print(country)
+
+for i in country
+{
+    print(i)
+    print(i.key,i.value)
+}
+
+print("...............key and values")
+for (k,v) in country
+{
+    print(k,v)
+}
+
+print("...............values")
+for (_,v) in country
+{
+    print(v)
+}
+print("...............keys")
+
+for k in country.keys
+{
+    print(k)
+}
+
+print("...............values")
+
+for v in country.values
+{
+    print(v)
+}
+
+
+print("array and dictionaries...........")
+
+//d[ : ]////////delete all elements////clear
+//a[ ]
+
+
